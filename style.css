@@ -1,0 +1,126 @@
+:root{
+ --primo:darkred;
+ --secondo:#c67f7f;
+ --terzo:#ececec;
+}
+
+body{
+    background-color:rgba(221, 218, 218, 0.705);
+   
+   
+}
+h1,h2,h3,h4,h5,h6{
+    color: var(--primo);
+    font-family: "Nova Square", sans-serif;
+}
+p{
+    font-family: "Rajdhani", sans-serif;
+}
+   
+  .bgheader{
+    background: url(./foto/mountains.png), linear-gradient(white,transparent), url(./foto/switzerland-862870_1920.jpg);
+    background-repeat: no-repeat;
+    background-position:bottom, center,center;
+    background-size: cover;
+    
+  }
+
+.text-red{
+    color:var(--primo);
+    font-size: large;
+}
+.text-center{
+    list-style-type: none;
+}
+
+.righe{
+    height: 5px;
+    width: 170px;
+    background-color: var(--primo);
+    border-radius: 10px;
+    list-style-type: none;
+    right:10px;
+    
+}
+
+.righe::after{
+    content:"";
+    height: 14px;
+     width: 14px;
+    background-color:hsl(255, 22%, 96%);
+    border-radius: 50px;
+    border:2px solid var(--secondo);
+    bottom:5px;
+    position: relative;
+    display: flex;
+    left: 75px;
+   
+
+}
+
+.righe1{
+    height:160px;
+    border-right: 1px solid darkred;
+    background-color: var(--primo);
+    border-radius: 50px;
+    list-style-type: none;
+    display:flex;
+    position: absolute;
+    width: 4px;
+}
+    
+    .righe1::after{
+        content:"";
+        height: 15px;
+         width: 15px;
+        background-color:hsl(255, 22%, 96%);
+        border-radius: 50px;
+        border:2px solid var(--secondo);
+        padding: 6px;
+        position: relative;
+        display: flex;
+        right: 5px;
+    } 
+.tree{
+    opacity:0.1;
+}
+    
+
+
+
+.icone2{
+     list-style-type:none; 
+     
+    
+}
+.form-range{
+    width: 150px;
+   
+}
+.btn1{
+    background-color: darkred;
+    color: var(--terzo);
+}
+.sfere{
+    width: 100px;
+    height:100px;
+}
+
+.sfere::after{
+        content:"";
+        height: 600px;
+         width:500px;
+        background-color:hsl(255, 82%, 29%);
+        border-radius: 50px;
+       
+     
+        position: relative;
+        display: flex;
+}
+.articoli{
+    width: 250px;
+    height: 250px;
+}
+.foot{
+    background-color: var(--primo);
+}
